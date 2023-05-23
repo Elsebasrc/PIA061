@@ -1,4 +1,4 @@
-## Practica 02 Manjo de APIS
+## Practica 02 Manejo de APIS
 
 En esta practica pudimos visualizar el uso de una API y Postmaan para el control de pokemones con el uso de scripts
 
