@@ -1,7 +1,7 @@
 import requests
 #Nombre:Brian Sebastian Reyna Castillo
 #Matricula: 2127309
-
+#grupo 061
 def get_pokemons (url='http://pokeapi.co/api/v2/pokemon-form/', offset=0):
     args = {'offset':offset}if offset else{}
 
