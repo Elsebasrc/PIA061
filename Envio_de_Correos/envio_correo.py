@@ -5,12 +5,12 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 #establecemos de donde y a quien se ennviara el correo
-origen='brianrc94@gmail.com'
-destino=' gerardo.bernal@uanl.edu.mx '
+origen='@gmail.com'#agregar correo gmail que enviara el mensjae
+destino='  '#ingresar el correo a quien va dirijido
 #hacemos la ppeticion de acceso de conexion a SMTP para poder connectarnos y enviar correos
 conn=smtplib.SMTP('smtp.gmail.com',  587)
 conn.starttls()
-conn.login(origen,'ingrese password')#debe ingresar el password y correo de aplicacion para que funcionne
+conn.login(origen,'ingrese password') #debe ingresar el password y correo de aplicacion para que funcionne
 #hacemos la creacion del mensaje a enviar en formato html
 mensaje= MIMEMultipart()
 mensaje['From']=origen
