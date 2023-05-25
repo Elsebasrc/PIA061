@@ -30,6 +30,7 @@ while True:
     print("2. Escaneo completo")
     print("3. Detección de sistema operativo")
     print("4. Escaneo de red con ping")
+    print("5. salir")
     
     opcion = input("Seleccione una opción indicando el numero : ")
 
@@ -45,6 +46,8 @@ while True:
     elif opcion == "4":
         ip = input("Introduzca la dirección IP a escanear: ")
         escaneo_ping(ip)
-      
+    elif opcion== "5":
+        exit()
+
     else:
         print("Opción inválida")
