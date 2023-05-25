@@ -4,3 +4,4 @@
 - [Manejo de APIs](./ManejoAPI/)
 - [Scripting  en Powershell](./Scripting_posh/)
 - [Scripting en Bash](./Scripting_Bash/)
+- [Encoding & Decoding](./Encoding_Decoding/) 
