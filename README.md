@@ -6,3 +6,5 @@ En este repositorio se podran encontrar una recopilacion  e informacion  sobre a
 - [Scripting  en Powershell](./Scripting_posh/)
 - [Scripting en Bash](./Scripting_Bash/)
 - [Webscraping](./Webscraping/) 
+- [Envio_de_Correos](./Envio_de_Correos/) 
+- [Escaner_de_Puertos](./Escaner_de_Puertos/) 
